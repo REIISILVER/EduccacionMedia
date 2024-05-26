@@ -1,0 +1,46 @@
+*{
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.container{
+    display: flex;
+    position: relative;
+}
+
+
+.divHeaders{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    border: 1px solid black;
+    
+}
+
+.divHeaders h1{
+    rotate: 270deg;
+}
+
+.card-container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+
+.card-container .element{
+    border: 1px solid black;
+}
+
+.card-container ul li{
+    font-size:19px;
+}
+
+.cardH{
+    border: 1px solid black;
+    padding: 5px 7px;
+}
+
+.cardH:first-child{
+    background-color: burlywood;
+}
+
+
